@@ -7,24 +7,86 @@
   <meta name="description" content="自己紹介サイトです。" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- CSSファイルの適用 -->
-  
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
   <div class="page-wrapper">
     <!-- ヘッダー -->
+    <header class = "header">
+      <img class="header-logo" src="./img/logo.png" alt="ヘッダー">
+      <ul class="header-list">
+        <li>Profile</li>
+        <li>Aericles</li>
+      </ul>
+    </header>
 
     <main class="main-content">
       <!-- メインビジュアル -->
-
+      <img class="main-image" src="./img/main_visual.jpg" alt="画像">
+      
       <!-- プロフィール セクション -->
+      <div class = profile>
+        <h2 class = "profile-title">Profile</h2>
+        <div  class = "profile-body">
+          <img src="./img/profile.png" alt="プロフィール画像" class = "profile-image">
+          <div class = "profile-content">
+            <h3>TARO RARETECH</h3>
+            <p>出身：東京都<br>
+              趣味：アプリ開発、散歩(公園を中心に都内を歩きまわっています) <br>
+              技術：Python,Django,JavaScript,React,AWS,GCP <br>
+              主な仕事：マネジメント,バックエンド開発 <br>
+            </p>
+          </div>
+        </div>
+      </div>
 
       <!-- 記事 セクション -->
+       <div class="section">
+          <h1 class = "section-title">Articles</h1>
+          <div class = "Articles">
+            <div class="Article">
+              <img src="./img/article.jpg">
+              <h3>記事のタイトル</h3>
+              <p>
+                こんな記事を書きました。こんな記事を書きました。<br>
+                こんな記事を書きました。こんな記事を書きました。
+              </p>
+            </div>
+            <div class="Article">
+              <img src="./img/article.jpg">
+              <h3>記事のタイトル</h3>
+              <p>
+                こんな記事を書きました。こんな記事を書きました。<br>
+                こんな記事を書きました。こんな記事を書きました。
+              </p>
+            </div>
+            <div class="Article">
+              <img src="./img/article.jpg">
+              <h3>記事のタイトル</h3>
+              <p>
+                こんな記事を書きました。こんな記事を書きました。<br>
+                こんな記事を書きました。こんな記事を書きました。
+              </p>
+            </div>
+            <div class="Article">
+              <img src="./img/article.jpg">
+              <h3>記事のタイトル</h3>
+              <p>
+                こんな記事を書きました。こんな記事を書きました。<br>
+                こんな記事を書きました。こんな記事を書きました。
+              </p>
+            </div>
 
+          </div>
+
+       </div>
     </main>
 
     <!-- フッター -->
-
+     <footer>
+      <p>&copy;2024 Profile</p>
+     </footer>
   </div>
 </body>
 
